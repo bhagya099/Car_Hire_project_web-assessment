@@ -104,28 +104,31 @@
         <!-- Enquiries section -->
         <section class=" container mt-5" id="enquiries">
             <h4>Enquire about a car</h4>
-            <div class=" mb-3">
-                <label for="full_name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="full_name" placeholder="fisrtname lastname">
-            </div>
-            <div class=" mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="name@example.com">
-            </div>
-            <div class=" mb-3">
-                <label for="choose_car" class="form-label">Choose A Car</label>
-                <select class="form-select" aria-label="Default select example" id="choose_car">
+            <form>
+                <div class=" mb-3">
+                    <label for="full_name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="full_name" placeholder="fisrtname lastname">
+                </div>
+                <div class=" mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <div class=" mb-3">
+                    <label for="choose_car" class="form-label">Choose A Car</label>
+                    <select class="form-select" aria-label="Default select example" id="choose_car">
                     <option selected>Open this select menu</option>
                     <option value="1">Black Vintage Car</option>
                     <option value="2">Green Vintage Car</option>
                     <option value="3">Gray Vintage Car</option>
                     <option value="3">Red Vintage Car</option>
                 </select>
-            </div>
-            <div class="mb-3">
-                <label for="comment" class="form-label">Comment</label>
-                <textarea class="form-control" id="comment" rows="3"></textarea>
-            </div>
+                </div>
+                <div class="mb-3">
+                    <label for="comment" class="form-label">Comment</label>
+                    <textarea class="form-control" id="comment" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </section>
 
 
