@@ -58,7 +58,7 @@
                 <!-- first card -->
                 <div class="col-md ">
                     <div class="card">
-                        <img class=" img_style " src="./image/black-vintage-car.jpg" alt="balck vintage car" class="card-img-top">
+                        <img class=" img_style card-img-top " src="./image/black-vintage-car.jpg" alt="balck vintage car">
                         <div class="card-body  text-center">
                             <h6>Vintage Black Car</h6>
                             <p class="card-text">Car type : sedan <br> Doors : 4</p>
@@ -68,7 +68,7 @@
                 <!-- second card -->
                 <div class=" col-md ">
                     <div class="card ">
-                        <img class=" img_style " src="./image/gree-vintage-car.jpg" alt="green vintage car" class="card-img-top">
+                        <img class=" img_style card-img-top" src="./image/gree-vintage-car.jpg" alt="green vintage car">
                         <div class="card-body  text-center">
                             <h6>Vintage Green Car</h6>
                             <p class="card-text">Car type : sedan <br> Doors : 2</p>
@@ -79,7 +79,7 @@
                 <!-- third card -->
                 <div class="col-md">
                     <div class="card">
-                        <img class=" img_style " src="./image/grey-vintage-car.jpg" alt="gray vintage car" class="card-img-top">
+                        <img class=" img_style card-img-top" src="./image/grey-vintage-car.jpg" alt="gray vintage car">
                         <div class="card-body  text-center">
                             <h6>Vintage Gray Car</h6>
                             <p class="card-text">Car type : sedan <br> Doors : 4</p>
@@ -90,8 +90,8 @@
                 <!-- fourth card -->
                 <div class="col-md">
                     <div class="card ">
-                        <img class="img_style" src="./image/red-vintage-car.jpg" alt="redvintage car" class="card-img-top">
-                        <div class="card-body  text-center mt-4">
+                        <img class="img_style card-img-top" src="./image/red-vintage-car.jpg" alt="redvintage car">
+                        <div class="card-body text-center">
                             <h6>Vintage RedCar</h6>
                             <p class="card-text ">Car type : sedan <br> Doors : 4</p>
                         </div>
@@ -99,17 +99,43 @@
                 </div>
             </div>
         </section>
+
+
         <!-- Enquiries section -->
-        <section class="mt-5" id="enquiries">
+        <section class=" container mt-5" id="enquiries">
             <h4>Enquire about a car</h4>
+            <div class=" mb-3">
+                <label for="full_name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="full_name" placeholder="fisrtname lastname">
+            </div>
+            <div class=" mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class=" mb-3">
+                <label for="choose_car" class="form-label">Choose A Car</label>
+                <select class="form-select" aria-label="Default select example" id="choose_car">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Black Vintage Car</option>
+                    <option value="2">Green Vintage Car</option>
+                    <option value="3">Gray Vintage Car</option>
+                    <option value="3">Red Vintage Car</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="comment" class="form-label">Comment</label>
+                <textarea class="form-control" id="comment" rows="3"></textarea>
+            </div>
         </section>
+
+
         <!-- Contact section -->
-        <section class="mt-5" id="contact">
+        <section class=" container mt-5" id="contact">
 
             <h4>Contact</h4>
         </section>
 
-
+        </div>
 
 
     </main>
