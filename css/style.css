@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 209, 209);
+}
+
+.img_style {
+    width: 100%;
+    border-radius: 10%;
+}
