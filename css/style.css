@@ -4,6 +4,10 @@ body {
     /* background-color: rgb(212, 209, 209); */
 }
 
+a:hover {
+    color: black;
+}
+
 .img_style {
     width: 100%;
     border-radius: 10%;
