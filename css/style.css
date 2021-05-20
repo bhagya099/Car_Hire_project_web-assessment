@@ -1,11 +1,21 @@
 body {
     margin: 0;
     padding: 0;
-    /* background-color: rgb(212, 209, 209); */
+    background-color: rgb(237, 235, 235);
+    font-family: 'Halvetica', sans-serif;
+    font-size: 15px;
 }
 
 a:hover {
     color: black;
+}
+
+h1 {
+    color: rgb(136, 65, 136)
+}
+
+.card {
+    background-color: rgb(237, 235, 235);
 }
 
 .img_style {
@@ -14,5 +24,5 @@ a:hover {
 }
 
 .bg_color {
-    background-color: rgb(176, 176, 176);
+    background-color: rgb(194, 194, 194);
 }
