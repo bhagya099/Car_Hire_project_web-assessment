@@ -31,3 +31,26 @@ label {
     padding: 5px;
     margin-top: 2px;
 }
+
+fieldset {
+    width: 90%;
+}
+
+.address {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.address .form_input {
+    width: 80%;
+    font-size: 12px
+}
+
+button {
+    font-size: 0.8;
+    padding: 0.7rem;
+    border-radius: 20%;
+    margin: auto;
+    margin-top: 5px;
+    background-color: lightblue;
+}

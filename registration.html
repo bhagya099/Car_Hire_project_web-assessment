@@ -13,7 +13,7 @@
     <h1>Registration to partern with us</h1>
     <!-- outer section begin -->
     <section class="outer_container">
-        <form name="registration_form" method="POST" action="">
+        <form name="registration_form" method="POST" action="thankyou.html">
             <!-- first name -->
             <label for="first_name">First Name :</label>
             <input type="text" id="first_name" name="FirstName" class="form_input" placeholder="Enter you first name">
@@ -29,10 +29,56 @@
             <!-- last name -->
             <label for="userdob">Date of birth :</label>
             <input type="date" id="userdob" name="DOB" class="form_input" placeholder="Enter your date of birth">
+            <fieldset>
+                <legend>Address:</legend>
+                <div class="address">
+                    <div>
+                        <label for="userStreet">Street</label>
+                        <input type="text" name="userStreet" id="userStreet" class="form_input" placeholder="Enter your Street Name" />
+                    </div>
+                    <div>
+                        <label for="userSuburb">Suburb</label>
+                        <input type="text" name="userSuburb" id="userSuburb" class="form_input" placeholder="Enter your Suburb Name" />
+                    </div>
+                    <div>
+                        <label for="userSuburb">State</label>
+                        <input type="text" name="userSuburb" id="userSuburb" class="form_input" placeholder="Enter your Suburb Name" />
+                    </div>
+                    <div>
+                        <label for="userSuburb">Country</label>
+                        <input type="text" name="userSuburb" id="userSuburb" class="form_input" placeholder="Enter your Suburb Name" />
+                    </div>
+                    <div>
+                        <label for="userPostcode">Post Code </label>
+                        <input type="number" name="userPostcode" id="userPostcode" class="form_input" placeholder="Enter your PostCode" />
+                    </div>
+                </div>
+            </fieldset>
+            </div>
+
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Other</option>
+            </select>
+
+            <label for="buisness">Type of Buisness</label>
+            <input type="radio" id="buisness" name="buisness">Events
+            <input type="radio" id="buisness" name="buisness">Film and Media
+            <input type="radio" id="buisness" name="buisness">Entertainment
+            <input type="radio" id="buisness" name="buisness">Tourism
+
+            <label for="userfile">File</label>
+            <input type="file" id="userfile" name="userfile"><br>
+
+
+            <input type="checkbox" name="usertc" id="usertc" style="float: left;margin-top:8px;">
+            <label for="usertc">I agree to the Term and Condition</label>
+            <button>Submit</button>
 
         </form>
     </section>
-
     <!-- outer section end -->
 </body>
 
