@@ -1,0 +1,33 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(210, 110, 110);
+}
+
+.outer_container {
+    border: 2px solid pink;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+label {
+    color: rgb(210, 110, 110);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+.form_input {
+    width: 70%;
+    height: 1.2rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 2px;
+}
